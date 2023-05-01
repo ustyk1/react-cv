@@ -1,0 +1,17 @@
+.education {
+  &__list {
+    .item {
+      &__profile {
+        font-weight: 700;
+        width: fit-content;
+        border-bottom: 2px solid rgb(32, 138, 183);
+        margin: 15px 0 5px;
+        padding: 5px 10px;
+      }
+      &__university { 
+        font-style: italic;
+      }
+      &__period {}
+    }
+  }
+}

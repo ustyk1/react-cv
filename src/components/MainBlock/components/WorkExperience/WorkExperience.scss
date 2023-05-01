@@ -1,0 +1,35 @@
+.work-experience {
+  .list {
+    .item {
+      &__description {
+        font-weight: 700;
+        width: fit-content;
+        padding: 5px 10px;
+        border-bottom: 2px solid rgb(32, 138, 183);
+      }
+
+      &__period {
+        font-style: italic;
+        margin-bottom: 10px;
+      }
+
+      .tasks {
+
+        &__title {
+          font-weight: 700;
+        }
+        &__list {
+
+          li::before {
+            content: "\2022";
+            color: rgb(32, 138, 183);
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -15px;
+          }
+        }
+      }
+    }
+  }
+}

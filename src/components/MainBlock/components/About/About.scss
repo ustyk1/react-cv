@@ -1,0 +1,12 @@
+.about {
+  &__subtitle {
+    width: fit-content;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(32, 138, 183) ;
+  }
+
+  &__description {
+    padding: 0 0 0 15px;
+  }
+}

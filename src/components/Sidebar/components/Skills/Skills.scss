@@ -1,0 +1,28 @@
+.skills {
+  box-sizing: border-box;
+
+  &__title {
+    margin-bottom: 10px;
+    background: none;
+  } 
+
+  &__list {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    .list__item {
+      padding-left: 20px;
+
+      &::before {
+        content: "\2022";
+        color: #fff;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -15px;
+      }
+    }
+  }
+}
